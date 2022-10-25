@@ -1,0 +1,224 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Rails</name>
+    </assembly>
+    <members>
+        <member name="T:Rails.About">
+            <summary>
+            Summary description for About.
+            </summary>
+        </member>
+        <member name="F:Rails.About.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Rails.About.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:Rails.About.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Rails.Form1.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Rails.Indicator">
+            <summary>
+            Summary description for Indicator.
+            </summary>
+        </member>
+        <member name="F:Rails.Indicator.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Rails.Indicator.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:Rails.Indicator.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Rails.MapGallery">
+            <summary>
+            Summary description for MapGallery.
+            </summary>
+        </member>
+        <member name="F:Rails.MapGallery.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Rails.MapGallery.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:Rails.MapGallery.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Rails.NewGame">
+            <summary>
+            Summary description for NewGame.
+            </summary>
+        </member>
+        <member name="F:Rails.NewGame.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Rails.NewGame.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:Rails.NewGame.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Rails.Newspaper">
+            <summary>
+            Summary description for Newspaper.
+            </summary>
+        </member>
+        <member name="F:Rails.Newspaper.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Rails.Newspaper.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:Rails.Newspaper.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Rails.Progress">
+            <summary>
+            Summary description for Progress.
+            </summary>
+        </member>
+        <member name="F:Rails.Progress.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Rails.Progress.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:Rails.Progress.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Rails.Rankings">
+            <summary>
+            Summary description for Rankings.
+            </summary>
+        </member>
+        <member name="F:Rails.Rankings.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Rails.Rankings.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:Rails.Rankings.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Rails.SerialNumber">
+            <summary>
+            Summary description for SerialNumber.
+            </summary>
+        </member>
+        <member name="F:Rails.SerialNumber.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Rails.SerialNumber.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:Rails.SerialNumber.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Rails.TopCommodities">
+            <summary>
+            Summary description for TopCommodities.
+            </summary>
+        </member>
+        <member name="F:Rails.TopCommodities.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Rails.TopCommodities.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:Rails.TopCommodities.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Rails.UpgradeTrain">
+            <summary>
+            Summary description for UpgradeTrain.
+            </summary>
+        </member>
+        <member name="F:Rails.UpgradeTrain.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Rails.UpgradeTrain.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:Rails.UpgradeTrain.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+    </members>
+</doc>

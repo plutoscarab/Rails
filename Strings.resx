@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            <xsd:complexType>
+                <xsd:choice maxOccurs="unbounded">
+                    <xsd:element name="data">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" />
+                            <xsd:attribute name="type" type="xsd:string" />
+                            <xsd:attribute name="mimetype" type="xsd:string" />
+                        </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="resheader">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" use="required" />
+                        </xsd:complexType>
+                    </xsd:element>
+                </xsd:choice>
+            </xsd:complexType>
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="ResMimeType">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="Version">
+        <value>1.0.0.0</value>
+    </resheader>
+    <resheader name="Reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3102.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="Writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3102.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="AuthoredMap.TypeNotSupported">
+        <value>This map type is not supported.</value>
+    </data>
+    <data name="About.VersionLabel">
+        <value>PC Rails version {0}</value>
+    </data>
+    <data name="Forms.OK">
+        <value>OK</value>
+    </data>
+    <data name="About.WebSite">
+        <value>Web Site</value>
+    </data>
+    <data name="About.Text">
+        <value>About Rails</value>
+    </data>
+    <data name="Form1.NewVersionAvailable">
+        <value>A newer version of this program is available online. Would you like to visit the web page?</value>
+    </data>
+    <data name="Form1.FileMenu">
+        <value>&amp;File</value>
+    </data>
+    <data name="Form1.NewGame">
+        <value>&amp;New game</value>
+    </data>
+    <data name="Form1.SaveMap">
+        <value>&amp;Save map</value>
+    </data>
+    <data name="Form1.Exit">
+        <value>E&amp;xit</value>
+    </data>
+    <data name="Form1.EditMenu">
+        <value>&amp;Edit</value>
+    </data>
+    <data name="Form1.Undo">
+        <value>&amp;Undo</value>
+    </data>
+    <data name="Form1.CommandsMenu">
+        <value>&amp;Commands</value>
+    </data>
+    <data name="Form1.DiscardAll">
+        <value>&amp;Discard all contracts</value>
+    </data>
+    <data name="Form1.UseTrack">
+        <value>&amp;Use another player's track</value>
+    </data>
+    <data name="Form1.StatsMenu">
+        <value>&amp;Stats</value>
+    </data>
+    <data name="Form1.TopCommodities">
+        <value>&amp;Top commodities</value>
+    </data>
+    <data name="Form1.Rankings">
+        <value>&amp;Player rankings</value>
+    </data>
+    <data name="Form1.WinLoss">
+        <value>&amp;Win/loss record</value>
+    </data>
+    <data name="Form1.HelpMenu">
+        <value>&amp;Help</value>
+    </data>
+    <data name="Form1.About">
+        <value>&amp;About Rails</value>
+    </data>
+    <data name="Rails">
+        <value>Rails</value>
+    </data>
+    <data name="Forms.MenuSeparator">
+        <value>-</value>
+    </data>
+    <data name="Game.EndOfGame">
+        <value>You have met the end of game requirements. Continue to the next player to allow each player the same number of turns.</value>
+    </data>
+    <data name="Game.NotSpentAny">
+        <value>You have not spent any time or money so far this turn. Are you sure you want to give up the remainder of your turn?</value>
+    </data>
+    <data name="Game.CargoPickup">
+        <value>cargo pickup</value>
+    </data>
+    <data name="Game.CargoDelivery">
+        <value>cargo delivery</value>
+    </data>
+    <data name="Game.AllYourBase">
+        <value>All of your freight cars are full. You must unload a car before you can pick up another commodity.</value>
+    </data>
+    <data name="Game.NoProfit">
+        <value>You won't earn any money for this cargo. Are you sure you want to unload it?</value>
+    </data>
+    <data name="Game.CannotUnload">
+        <value>You cannot unload cargo in {0} until the current emergency has ended.</value>
+    </data>
+    <data name="Game.EngineUpgrade">
+        <value>engine upgrade</value>
+    </data>
+    <data name="Game.TrainUpgrade">
+        <value>train upgrade</value>
+    </data>
+    <data name="Game.NoTimeToUpgrade">
+        <value>There is not enough time left in your turn to upgrade your train.</value>
+    </data>
+    <data name="Utility.CurrencyFormat">
+        <value>€{0}mil</value>
+    </data>
+    <data name="Game.TrainPlacement">
+        <value>train placement</value>
+    </data>
+    <data name="Game.CannotLoad">
+        <value>You cannot load cargo in {0} until the current emergency has ended.</value>
+    </data>
+    <data name="Game.TrainMovement">
+        <value>train movement</value>
+    </data>
+    <data name="Game.CannotReach">
+        <value>That location cannot be reached at this time.</value>
+    </data>
+    <data name="Game.ContractDump">
+        <value>contract dump</value>
+    </data>
+    <data name="Game.To">
+        <value>to </value>
+    </data>
+    <data name="Game.TrackBuilding">
+        <value>track building</value>
+    </data>
+    <data name="Game.NoTimeToMove">
+        <value>There is not enough time remaining in your turn to move further.</value>
+    </data>
+    <data name="Game.AlreadyOfficial">
+        <value>The game is already official, so if you quit now it will be recorded as a loss for all players. Are you sure you want to quit?</value>
+    </data>
+    <data name="Game.NoTimeToLoad">
+        <value>There is not enough time remaining in your turn to load cargo.</value>
+    </data>
+    <data name="Game.UseOfOther">
+        <value>use of other players' track</value>
+    </data>
+    <data name="Game.OtherTrackCost">
+        <value>Using another player's track costs {0}, which would exceed your spending limit.</value>
+    </data>
+    <data name="Game.NoTimeToUnload">
+        <value>There is not enough time remaining in your turn to unload cargo.</value>
+    </data>
+    <data name="Game.NoMoneyToUpgrade">
+        <value>You have already spent money this turn. Train upgrades cost {0} and therefore require all of your spending limit.</value>
+    </data>
+    <data name="Forms.Cancel">
+        <value>Cancel</value>
+    </data>
+    <data name="ChooseTrack.IndicatePlayers">
+        <value>Indicate which players' tracks to ride this turn:</value>
+    </data>
+    <data name="ChooseTracks.Title">
+        <value>Choose Tracks</value>
+    </data>
+    <data name="Game.WinLossError">
+        <value>There is an error in the winloss.rec file. Please delete or rename this file to continue.</value>
+    </data>
+    <data name="MapGallery.AreYouSure">
+        <value>Are you sure you want to delete the map?</value>
+    </data>
+    <data name="MapGallery.DeleteError">
+        <value>An error occurred when trying to delete the map.</value>
+    </data>
+    <data name="MapGallery.DeleteMap">
+        <value>Delete map</value>
+    </data>
+    <data name="MapGallery.NoSavedMaps">
+        <value>There are no saved maps.</value>
+    </data>
+    <data name="MapGallery.LoadError">
+        <value>An error occurred while trying to load the map gallery.</value>
+    </data>
+    <data name="MapGallery.SerialNumberFormat">
+        <value>Serial number {0}</value>
+    </data>
+    <data name="MapGallery.MapNameFormat">
+        <value>{0} map</value>
+    </data>
+    <data name="MapGallery.Title">
+        <value>Map Gallery</value>
+    </data>
+    <data name="NewGame.Map">
+        <value>Map</value>
+    </data>
+    <data name="NewGame.SerialNumber">
+        <value>Specify a map serial number</value>
+    </data>
+    <data name="NewGame.SavedMap">
+        <value>Load a saved map</value>
+    </data>
+    <data name="NewGame.CurrentMap">
+        <value>Re-use current map</value>
+    </data>
+    <data name="NewGame.RandomMap">
+        <value>Generate random map</value>
+    </data>
+    <data name="NewGame.Variations">
+        <value>Variations</value>
+    </data>
+    <data name="NewGame.FirstToCity">
+        <value>First-to-city bonuses</value>
+    </data>
+    <data name="NewGame.AutomaticTrack">
+        <value>Automatic track-building</value>
+    </data>
+    <data name="NewGame.LimitedCommodities">
+        <value>Limited commodities</value>
+    </data>
+    <data name="NewGame.CityIncentives">
+        <value>City incentives</value>
+    </data>
+    <data name="NewGame.FastStart">
+        <value>Fast start</value>
+    </data>
+    <data name="NewGame.Players">
+        <value>Players</value>
+    </data>
+    <data name="NewGame.NotPlaying">
+        <value>Not playing</value>
+    </data>
+    <data name="NewGame.None">
+        <value>none</value>
+    </data>
+    <data name="NewGame.Title">
+        <value>New Game</value>
+    </data>
+</root>
