@@ -1,0 +1,31 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapEditor", "MapEditor.csproj", "{3A51D22E-94D1-4C02-B22E-FECBE0A2D830}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{79364EC5-EFFE-42B6-A27C-A6A1525E592F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsApplication4", "..\Frame\WindowsApplication4.csproj", "{5C8A6940-9A8B-47EC-B68E-A59E3DFF4241}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{3A51D22E-94D1-4C02-B22E-FECBE0A2D830}.Debug.ActiveCfg = Debug|.NET
+		{3A51D22E-94D1-4C02-B22E-FECBE0A2D830}.Debug.Build.0 = Debug|.NET
+		{3A51D22E-94D1-4C02-B22E-FECBE0A2D830}.Release.ActiveCfg = Release|.NET
+		{3A51D22E-94D1-4C02-B22E-FECBE0A2D830}.Release.Build.0 = Release|.NET
+		{79364EC5-EFFE-42B6-A27C-A6A1525E592F}.Debug.ActiveCfg = Debug
+		{79364EC5-EFFE-42B6-A27C-A6A1525E592F}.Release.ActiveCfg = Release
+		{5C8A6940-9A8B-47EC-B68E-A59E3DFF4241}.Debug.ActiveCfg = Debug|.NET
+		{5C8A6940-9A8B-47EC-B68E-A59E3DFF4241}.Debug.Build.0 = Debug|.NET
+		{5C8A6940-9A8B-47EC-B68E-A59E3DFF4241}.Release.ActiveCfg = Release|.NET
+		{5C8A6940-9A8B-47EC-B68E-A59E3DFF4241}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,1597 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FxCopProject Version="1.312" Name="My FxCop Project">
+ <ProjectOptions>
+  <SharedProject>False</SharedProject>
+  <Stylesheet Apply="False">c:\program files\microsoft fxcop 1.312\Xml\FxCopReport.Xsl</Stylesheet>
+  <SaveMessages>
+   <Project Status="Active, Excluded" NewOnly="False" />
+   <Report Status="Active" NewOnly="False" />
+  </SaveMessages>
+  <ProjectFile Compress="True" DefaultTargetCheck="True" DefaultRuleCheck="True" SaveByRuleGroup="" Deterministic="True" />
+  <PermitAnalysis>True</PermitAnalysis>
+  <EnableMultithreadedLoad>True</EnableMultithreadedLoad>
+  <EnableMultithreadedAnalysis>True</EnableMultithreadedAnalysis>
+  <SourceLookup>True</SourceLookup>
+  <AnalysisExceptionsThreshold>100</AnalysisExceptionsThreshold>
+  <RuleExceptionsThreshold>10</RuleExceptionsThreshold>
+  <Spelling Locale="en-us" />
+  <VersionAware>False</VersionAware>
+  <OverrideRuleVisibilities>False</OverrideRuleVisibilities>
+  <CustomDictionaries SearchFxCopDir="True" SearchUserProfile="True" SearchProjectDir="True" />
+ </ProjectOptions>
+ <Targets>
+  <Target Name="C:\Documents and Settings\Bret\My Documents\Visual Studio Projects\Rails\bin\Debug\Rails.exe" Analyze="True" AnalyzeAllChildren="True" />
+ </Targets>
+ <Rules>
+  <RuleFiles>
+   <RuleFile Name="$(FxCopDir)\Rules\DesignRules.dll" Enabled="True" AllRulesEnabled="False">
+    <Rule Name="AbstractTypesShouldNotHaveConstructors" Enabled="True" />
+    <Rule Name="AssembliesShouldHaveValidStrongNames" Enabled="True" />
+    <Rule Name="AvoidEmptyInterfaces" Enabled="True" />
+    <Rule Name="AvoidExcessiveParametersOnGenericTypes" Enabled="True" />
+    <Rule Name="AvoidNamespacesWithFewTypes" Enabled="True" />
+    <Rule Name="CollectionsShouldImplementGenericInterface" Enabled="True" />
+    <Rule Name="ConsiderPassingBaseTypesAsParameters" Enabled="True" />
+    <Rule Name="DeclareEventHandlersCorrectly" Enabled="True" />
+    <Rule Name="DeclareTypesInNamespaces" Enabled="True" />
+    <Rule Name="DefaultParametersShouldNotBeUsed" Enabled="True" />
+    <Rule Name="DefineAccessorsForAttributeArguments" Enabled="True" />
+    <Rule Name="DoNotCatchGeneralExceptionTypes" Enabled="True" />
+    <Rule Name="DoNotDeclareProtectedMembersInSealedTypes" Enabled="True" />
+    <Rule Name="DoNotDeclareStaticMembersOnGenericTypes" Enabled="True" />
+    <Rule Name="DoNotDeclareVirtualMembersInSealedTypes" Enabled="True" />
+    <Rule Name="DoNotExposeGenericLists" Enabled="True" />
+    <Rule Name="DoNotNestGenericTypesInMemberSignatures" Enabled="True" />
+    <Rule Name="DoNotOverrideOperatorEqualsOnReferenceTypes" Enabled="True" />
+    <Rule Name="DoNotPassTypesByReference" Enabled="True" />
+    <Rule Name="EnumeratorsShouldBeStronglyTyped" Enabled="True" />
+    <Rule Name="EnumsShouldHaveZeroValue" Enabled="True" />
+    <Rule Name="EnumStorageShouldBeInt32" Enabled="True" />
+    <Rule Name="GenericMethodsShouldProvideTypeParameter" Enabled="True" />
+    <Rule Name="ICollectionImplementationsHaveStronglyTypedMembers" Enabled="True" />
+    <Rule Name="ImplementStandardExceptionConstructors" Enabled="True" />
+    <Rule Name="InterfaceMethodsShouldBeCallableByChildTypes" Enabled="True" />
+    <Rule Name="ListsAreStronglyTyped" Enabled="True" />
+    <Rule Name="MarkAssembliesWithAssemblyVersion" Enabled="True" />
+    <Rule Name="MarkAssembliesWithClsCompliant" Enabled="True" />
+    <Rule Name="MarkAssembliesWithComVisible" Enabled="True" />
+    <Rule Name="MarkAttributesWithAttributeUsage" Enabled="True" />
+    <Rule Name="MarkEnumsWithFlags" Enabled="True" />
+    <Rule Name="MembersShouldNotExposeCertainConcreteTypes" Enabled="True" />
+    <Rule Name="MovePInvokesToNativeMethodsClass" Enabled="True" />
+    <Rule Name="NestedTypesShouldNotBeVisible" Enabled="True" />
+    <Rule Name="OverrideMethodsOnComparableTypes" Enabled="True" />
+    <Rule Name="OverrideOperatorEqualsOnOverridingAddAndSubtract" Enabled="True" />
+    <Rule Name="PropertiesShouldNotBeWriteOnly" Enabled="True" />
+    <Rule Name="ProvideObsoleteAttributeMessage" Enabled="True" />
+    <Rule Name="ReplaceRepetitiveArgumentsWithParamsArray" Enabled="True" />
+    <Rule Name="StaticHolderTypesShouldBeSealed" Enabled="True" />
+    <Rule Name="StaticHolderTypesShouldNotHaveConstructors" Enabled="True" />
+    <Rule Name="StringUriOverloadsCallSystemUriOverloads" Enabled="True" />
+    <Rule Name="TypesShouldNotExtendCertainBaseTypes" Enabled="True" />
+    <Rule Name="TypesThatOwnDisposableFieldsShouldBeDisposable" Enabled="True" />
+    <Rule Name="TypesThatOwnNativeResourcesShouldBeDisposable" Enabled="True" />
+    <Rule Name="UriParametersShouldNotBeStrings" Enabled="True" />
+    <Rule Name="UriPropertiesShouldNotBeStrings" Enabled="True" />
+    <Rule Name="UriReturnValuesShouldNotBeStrings" Enabled="True" />
+    <Rule Name="UseEventsWhereAppropriate" Enabled="True" />
+    <Rule Name="UseGenericEventHandlerInstances" Enabled="True" />
+    <Rule Name="UseGenericsWhereAppropriate" Enabled="True" />
+    <Rule Name="UseIntegralOrStringArgumentForIndexers" Enabled="True" />
+    <Rule Name="UsePropertiesWhereAppropriate" Enabled="True" />
+   </RuleFile>
+   <RuleFile Name="$(FxCopDir)\Rules\GlobalizationRules.dll" Enabled="True" AllRulesEnabled="True" />
+   <RuleFile Name="$(FxCopDir)\Rules\InteroperabilityRules.dll" Enabled="True" AllRulesEnabled="True" />
+   <RuleFile Name="$(FxCopDir)\Rules\MobilityRules.dll" Enabled="True" AllRulesEnabled="False">
+    <Rule Name="DoNotUseIdleProcessPriority" Enabled="True" />
+   </RuleFile>
+   <RuleFile Name="$(FxCopDir)\Rules\NamingRules.dll" Enabled="True" AllRulesEnabled="False">
+    <Rule Name="AvoidLanguageSpecificTypeNamesInParameters" Enabled="True" />
+    <Rule Name="AvoidTypeNamesInParameters" Enabled="True" />
+    <Rule Name="CompoundWordsShouldBeCasedCorrectly" Enabled="True" />
+    <Rule Name="DoNotNameEnumValuesReserved" Enabled="True" />
+    <Rule Name="DoNotPrefixEnumValuesWithTypeName" Enabled="True" />
+    <Rule Name="EventsShouldNotHaveBeforeOrAfterPrefix" Enabled="True" />
+    <Rule Name="FlagsEnumsShouldHavePluralNames" Enabled="True" />
+    <Rule Name="IdentifiersShouldBeCasedCorrectly" Enabled="True" />
+    <Rule Name="IdentifiersShouldDifferByMoreThanCase" Enabled="True" />
+    <Rule Name="IdentifiersShouldHaveCorrectPrefix" Enabled="True" />
+    <Rule Name="IdentifiersShouldHaveCorrectSuffix" Enabled="True" />
+    <Rule Name="IdentifiersShouldNotContainUnderscores" Enabled="True" />
+    <Rule Name="IdentifiersShouldNotHaveIncorrectPrefix" Enabled="True" />
+    <Rule Name="IdentifiersShouldNotHaveIncorrectSuffix" Enabled="True" />
+    <Rule Name="IdentifiersShouldNotMatchKeywords" Enabled="True" />
+    <Rule Name="LongAcronymsShouldBePascalCased" Enabled="True" />
+    <Rule Name="OnlyFlagsEnumsShouldHavePluralNames" Enabled="True" />
+    <Rule Name="ParameterNamesShouldNotMatchMemberNames" Enabled="True" />
+    <Rule Name="PropertyNamesShouldNotMatchGetMethods" Enabled="True" />
+    <Rule Name="ResourceStringCompoundWordsShouldBeCasedCorrectly" Enabled="True" />
+    <Rule Name="ShortAcronymsShouldBeUppercase" Enabled="True" />
+    <Rule Name="TypeNamesShouldNotMatchNamespaces" Enabled="True" />
+   </RuleFile>
+   <RuleFile Name="$(FxCopDir)\Rules\PerformanceRules.dll" Enabled="True" AllRulesEnabled="False">
+    <Rule Name="AvoidExcessiveLocals" Enabled="True" />
+    <Rule Name="AvoidUncalledPrivateCode" Enabled="True" />
+    <Rule Name="AvoidUninstantiatedInternalClasses" Enabled="True" />
+    <Rule Name="AvoidUnnecessaryStringCreation" Enabled="True" />
+    <Rule Name="AvoidUnsealedAttributes" Enabled="True" />
+    <Rule Name="AvoidUnusedParameters" Enabled="True" />
+    <Rule Name="DisposeMethodsShouldCallSuppressFinalize" Enabled="True" />
+    <Rule Name="DoNotCallPropertiesThatCloneValuesInLoops" Enabled="True" />
+    <Rule Name="DoNotCastUnnecessarily" Enabled="True" />
+    <Rule Name="DoNotConcatenateStringsInsideLoops" Enabled="True" />
+    <Rule Name="DoNotIgnoreMethodResults" Enabled="True" />
+    <Rule Name="DoNotInitializeUnnecessarily" Enabled="True" />
+    <Rule Name="InitializeReferenceTypeStaticFieldsInline" Enabled="True" />
+    <Rule Name="OverrideEqualsAndOperatorEqualsOnValueTypes" Enabled="True" />
+    <Rule Name="PropertiesShouldNotReturnArrays" Enabled="True" />
+    <Rule Name="RemoveUnusedLocals" Enabled="True" />
+    <Rule Name="TestForEmptyStringsUsingStringLength" Enabled="True" />
+    <Rule Name="UseLiteralsWhereAppropriate" Enabled="True" />
+   </RuleFile>
+   <RuleFile Name="$(FxCopDir)\Rules\PortabilityRules.dll" Enabled="True" AllRulesEnabled="True" />
+   <RuleFile Name="$(FxCopDir)\Rules\SecurityRules.dll" Enabled="True" AllRulesEnabled="True" />
+   <RuleFile Name="$(FxCopDir)\Rules\UsageRules.dll" Enabled="True" AllRulesEnabled="True" />
+  </RuleFiles>
+  <Groups />
+  <Settings />
+ </Rules>
+ <FxCopReport Version="1.312">
+  <Targets>
+   <Target Name="C:\Documents and Settings\Bret\My Documents\Visual Studio Projects\Rails\bin\Debug\Rails.exe">
+    <Modules>
+     <Module Name="rails.exe">
+      <Namespaces>
+       <Namespace Name="Rails">
+        <Types>
+         <Type Name="Engine">
+          <Members>
+           <Member Name="Description">
+            <Messages>
+             <Message TypeName="PropertiesShouldNotReturnArrays" Category="Microsoft.Performance" CheckId="CA1819" Status="Excluded" Created="2005-02-06 18:25:56Z">
+              <Issue>
+               <Item>Engine.Description:String[]</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="Speed">
+            <Messages>
+             <Message TypeName="PropertiesShouldNotReturnArrays" Category="Microsoft.Performance" CheckId="CA1819" Status="Excluded" Created="2005-02-06 18:25:56Z">
+              <Issue>
+               <Item>Engine.Speed:TimeSpan[]</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="SpeedInMinutes">
+            <Messages>
+             <Message TypeName="PropertiesShouldNotReturnArrays" Category="Microsoft.Performance" CheckId="CA1819" Status="Excluded" Created="2005-02-06 18:25:56Z">
+              <Issue>
+               <Item>Engine.SpeedInMinutes:Int32[]</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="SpeedString">
+            <Messages>
+             <Message TypeName="PropertiesShouldNotReturnArrays" Category="Microsoft.Performance" CheckId="CA1819" Status="Excluded" Created="2005-02-06 18:25:56Z">
+              <Issue>
+               <Item>Engine.SpeedString:String[]</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+          </Members>
+         </Type>
+         <Type Name="Game">
+          <Members>
+           <Member Name="ColorName">
+            <Messages>
+             <Message TypeName="DoNotDeclareReadOnlyMutableReferenceTypes" Category="Microsoft.Security" CheckId="CA2104" Status="Excluded" Created="2005-02-06 02:50:24Z">
+              <Issue>
+               <Item>Game.ColorName</Item>
+               <Item>Rails.StaticStringArray</Item>
+              </Issue>
+              <Notes>
+               <User Name="bret">
+                <Note Id="6" />
+               </User>
+              </Notes>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="ComputerMove():System.Void">
+            <Messages>
+             <Message TypeName="AvoidTestingForFloatingPointEquality" Category="Microsoft.Portability" CheckId="CA1902" Status="Excluded" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>Game.ComputerMove():Void</Item>
+              </Issue>
+              <Notes>
+               <User Name="bret">
+                <Note Id="0" />
+               </User>
+              </Notes>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="TrackColor">
+            <Messages>
+             <Message TypeName="DoNotDeclareReadOnlyMutableReferenceTypes" Category="Microsoft.Security" CheckId="CA2104" Status="Excluded" Created="2005-02-06 03:03:14Z">
+              <Issue>
+               <Item>Game.TrackColor</Item>
+               <Item>Rails.StaticColorArray</Item>
+              </Issue>
+              <Notes>
+               <User Name="bret">
+                <Note Id="1" />
+               </User>
+              </Notes>
+             </Message>
+            </Messages>
+           </Member>
+          </Members>
+         </Type>
+         <Type Name="GameResult">
+          <Members>
+           <Member Name=".ctor(System.IO.BinaryReader)">
+            <Messages>
+             <Message Id="rec" TypeName="LiteralsShouldBeSpelledCorrectly" Category="Microsoft.Usage" CheckId="CA2204" Status="Excluded" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>rec</Item>
+               <Item>There is an error in the winloss.rec file. Please delete or rename this file to continue.</Item>
+              </Issue>
+             </Message>
+             <Message Id="winloss" TypeName="LiteralsShouldBeSpelledCorrectly" Category="Microsoft.Usage" CheckId="CA2204" Status="Excluded" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>winloss</Item>
+               <Item>There is an error in the winloss.rec file. Please delete or rename this file to continue.</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+          </Members>
+         </Type>
+         <Type Name="Images">
+          <Members>
+           <Member Name=".cctor()">
+            <Messages>
+             <Message TypeName="InitializeReferenceTypeStaticFieldsInline" Category="Microsoft.Performance" CheckId="CA1810" Status="Excluded" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>Rails.Images</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="Alpine">
+            <Messages>
+             <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Excluded" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>Alpine</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="BlackDot">
+            <Messages>
+             <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Excluded" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>BlackDot</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="BlueDot">
+            <Messages>
+             <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Excluded" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>BlueDot</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="BridgeBitmap">
+            <Messages>
+             <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Excluded" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>BridgeBitmap</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="Capital">
+            <Messages>
+             <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Excluded" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>Capital</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="City">
+            <Messages>
+             <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Excluded" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>City</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="ComputerIcon">
+            <Messages>
+             <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Excluded" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>ComputerIcon</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="Glow">
+            <Messages>
+             <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Excluded" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>Glow</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="Hill">
+            <Messages>
+             <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Excluded" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>Hill</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="HumanIcon">
+            <Messages>
+             <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Excluded" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>HumanIcon</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="LocoBitmap">
+            <Messages>
+             <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Excluded" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>LocoBitmap</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="Port">
+            <Messages>
+             <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Excluded" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>Port</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="Snowflake">
+            <Messages>
+             <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Excluded" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>Snowflake</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="Town">
+            <Messages>
+             <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Excluded" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>Town</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="TrackBitmap">
+            <Messages>
+             <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Excluded" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>TrackBitmap</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="TrainDot">
+            <Messages>
+             <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Excluded" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>TrainDot</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="TrainPointer">
+            <Messages>
+             <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Excluded" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>TrainPointer</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+          </Members>
+         </Type>
+         <Type Name="Map">
+          <Members>
+           <Member Name="GetAdjacent(System.Int32,System.Int32,System.Int32,System.Int32&amp;,System.Int32&amp;):System.Boolean">
+            <Messages>
+             <Message Id="i+1" TypeName="OperationsShouldNotOverflow" Category="Microsoft.Usage" CheckId="CA2233" Status="Excluded" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>i+1</Item>
+               <Item>Rails.Map::GetAdjacent(System.Int32 i, System.Int32 j, System.Int32 d, System.Int32@ x, System.Int32@ y)</Item>
+              </Issue>
+              <Issue>
+               <Item>i+1</Item>
+               <Item>Rails.Map::GetAdjacent(System.Int32 i, System.Int32 j, System.Int32 d, System.Int32@ x, System.Int32@ y)</Item>
+              </Issue>
+             </Message>
+             <Message Id="i-1" TypeName="OperationsShouldNotOverflow" Category="Microsoft.Usage" CheckId="CA2233" Status="Excluded" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>i-1</Item>
+               <Item>Rails.Map::GetAdjacent(System.Int32 i, System.Int32 j, System.Int32 d, System.Int32@ x, System.Int32@ y)</Item>
+              </Issue>
+              <Issue>
+               <Item>i-1</Item>
+               <Item>Rails.Map::GetAdjacent(System.Int32 i, System.Int32 j, System.Int32 d, System.Int32@ x, System.Int32@ y)</Item>
+              </Issue>
+             </Message>
+             <Message Id="j+1" TypeName="OperationsShouldNotOverflow" Category="Microsoft.Usage" CheckId="CA2233" Status="Excluded" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>j+1</Item>
+               <Item>Rails.Map::GetAdjacent(System.Int32 i, System.Int32 j, System.Int32 d, System.Int32@ x, System.Int32@ y)</Item>
+              </Issue>
+              <Issue>
+               <Item>j+1</Item>
+               <Item>Rails.Map::GetAdjacent(System.Int32 i, System.Int32 j, System.Int32 d, System.Int32@ x, System.Int32@ y)</Item>
+              </Issue>
+              <Issue>
+               <Item>j+1</Item>
+               <Item>Rails.Map::GetAdjacent(System.Int32 i, System.Int32 j, System.Int32 d, System.Int32@ x, System.Int32@ y)</Item>
+              </Issue>
+             </Message>
+             <Message Id="j-1" TypeName="OperationsShouldNotOverflow" Category="Microsoft.Usage" CheckId="CA2233" Status="Excluded" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>j-1</Item>
+               <Item>Rails.Map::GetAdjacent(System.Int32 i, System.Int32 j, System.Int32 d, System.Int32@ x, System.Int32@ y)</Item>
+              </Issue>
+              <Issue>
+               <Item>j-1</Item>
+               <Item>Rails.Map::GetAdjacent(System.Int32 i, System.Int32 j, System.Int32 d, System.Int32@ x, System.Int32@ y)</Item>
+              </Issue>
+              <Issue>
+               <Item>j-1</Item>
+               <Item>Rails.Map::GetAdjacent(System.Int32 i, System.Int32 j, System.Int32 d, System.Int32@ x, System.Int32@ y)</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="GetCoord(System.Int32,System.Int32,System.Int32&amp;,System.Int32&amp;):System.Boolean">
+            <Messages>
+             <Message Id="i*15" TypeName="OperationsShouldNotOverflow" Category="Microsoft.Usage" CheckId="CA2233" Status="Excluded" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>i*15</Item>
+               <Item>Rails.Map::GetCoord(System.Int32 i, System.Int32 j, System.Int32@ x, System.Int32@ y)</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="InitializeSeaDisasters():System.Void">
+            <Messages>
+             <Message Id="Rails.Coastline" TypeName="DoNotIgnoreMethodResults" Category="Microsoft.Performance" CheckId="CA1806" Status="Excluded" Created="2005-02-06 18:39:26Z">
+              <Issue Name="ObjectCreation">
+               <Item>Map.InitializeSeaDisasters():Void</Item>
+               <Item>Rails.Coastline</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="IsLand(System.Int32,System.Int32):System.Boolean">
+            <Messages>
+             <Message Id="IsLand" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Excluded" Created="2005-02-06 02:39:58Z">
+              <Issue Name="ShouldBeDiscreteTerm">
+               <Item>IsLand</Item>
+               <Item>method</Item>
+               <Item>IsLand</Item>
+               <Item>Island</Item>
+              </Issue>
+              <Notes>
+               <User Name="bret">
+                <Note Id="8" />
+               </User>
+              </Notes>
+             </Message>
+            </Messages>
+           </Member>
+          </Members>
+         </Type>
+         <Type Name="Milepost">
+          <Messages>
+           <Message TypeName="OverrideEqualsAndOperatorEqualsOnValueTypes" Category="Microsoft.Performance" CheckId="CA1815" Status="Excluded" Created="2005-02-06 02:39:58Z">
+            <Issue Name="Equals">
+             <Item>Rails.Milepost</Item>
+            </Issue>
+            <Issue Name="op_Equality">
+             <Item>Rails.Milepost</Item>
+            </Issue>
+           </Message>
+          </Messages>
+         </Type>
+         <Type Name="NewGame">
+          <Members>
+           <Member Name="Players">
+            <Messages>
+             <Message TypeName="PropertiesShouldNotReturnArrays" Category="Microsoft.Performance" CheckId="CA1819" Status="Excluded" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>NewGame.Players:Player[]</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+          </Members>
+         </Type>
+         <Type Name="Options">
+          <Messages>
+           <Message TypeName="OverrideEqualsAndOperatorEqualsOnValueTypes" Category="Microsoft.Performance" CheckId="CA1815" Status="Excluded" Created="2005-02-06 02:39:58Z">
+            <Issue Name="Equals">
+             <Item>Rails.Options</Item>
+            </Issue>
+            <Issue Name="op_Equality">
+             <Item>Rails.Options</Item>
+            </Issue>
+           </Message>
+          </Messages>
+         </Type>
+         <Type Name="Player">
+          <Members>
+           <Member Name=".ctor(Rails.Player)">
+            <Messages>
+             <Message TypeName="DoNotInitializeUnnecessarily" Category="Microsoft.Performance" CheckId="CA1805" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>Player..ctor(Player)</Item>
+               <Item>cargoValues</Item>
+               <Item>reference type</Item>
+               <Item>null</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name=".ctor(System.Int32,System.Boolean,System.String)">
+            <Messages>
+             <Message TypeName="DoNotInitializeUnnecessarily" Category="Microsoft.Performance" CheckId="CA1805" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>Player..ctor(Int32, Boolean, String)</Item>
+               <Item>cargoValues</Item>
+               <Item>reference type</Item>
+               <Item>null</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name=".ctor(System.IO.BinaryReader)">
+            <Messages>
+             <Message TypeName="DoNotInitializeUnnecessarily" Category="Microsoft.Performance" CheckId="CA1805" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>Player..ctor(BinaryReader)</Item>
+               <Item>cargoValues</Item>
+               <Item>reference type</Item>
+               <Item>null</Item>
+              </Issue>
+              <Issue>
+               <Item>Player..ctor(BinaryReader)</Item>
+               <Item>DumpCount</Item>
+               <Item>Int32</Item>
+               <Item>0</Item>
+              </Issue>
+              <Issue>
+               <Item>Player..ctor(BinaryReader)</Item>
+               <Item>name</Item>
+               <Item>reference type</Item>
+               <Item>null</Item>
+              </Issue>
+              <Issue>
+               <Item>Player..ctor(BinaryReader)</Item>
+               <Item>Strategy</Item>
+               <Item>reference type</Item>
+               <Item>null</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="CargoValues">
+            <Messages>
+             <Message TypeName="PropertiesShouldNotReturnArrays" Category="Microsoft.Performance" CheckId="CA1819" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>Player.CargoValues:Int32[]</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="ID">
+            <Messages>
+             <Message TypeName="ShortAcronymsShouldBeUppercase" Category="Microsoft.Naming" CheckId="CA1706" Created="2005-02-06 02:39:58Z">
+              <Issue Name="MemberId">
+               <Item>Player.ID</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="Name">
+            <Accessors>
+             <Accessor Name="get_Name():System.String">
+              <Messages>
+               <Message Id="System.String.Format(System.String,System.Object,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Created="2005-02-06 02:39:58Z">
+                <Issue>
+                 <Item>Player.get_Name():String</Item>
+                 <Item>System.String.Format(System.String,System.Object,System.Object)</Item>
+                 <Item>System.String.Format(System.IFormatProvider,System.String,System.Object[])</Item>
+                </Issue>
+               </Message>
+              </Messages>
+             </Accessor>
+            </Accessors>
+           </Member>
+          </Members>
+         </Type>
+         <Type Name="PlayerResult">
+          <Members>
+           <Member Name=".ctor(System.IO.BinaryReader)">
+            <Messages>
+             <Message Id="version" TypeName="RemoveUnusedLocals" Category="Microsoft.Performance" CheckId="CA1804" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>PlayerResult..ctor(BinaryReader)</Item>
+               <Item>version</Item>
+               <Item>System.Int32</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="ToString():System.String">
+            <Messages>
+             <Message Id="System.Int32.ToString" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>PlayerResult.ToString():String</Item>
+               <Item>System.Int32.ToString</Item>
+               <Item>System.Int32.ToString(System.IFormatProvider)</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+          </Members>
+         </Type>
+         <Type Name="Progress">
+          <Members>
+           <Member Name="InitializeComponent():System.Void">
+            <Messages>
+             <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="DoNotPassLiteralsAsLocalizedParameters" Category="Microsoft.Globalization" CheckId="CA1303" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>Progress.InitializeComponent():Void</Item>
+               <Item>1</Item>
+               <Item>Control.set_Text(String):Void</Item>
+               <Item>label1</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="SetProgress(System.Int32):System.Void">
+            <Messages>
+             <Message TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>SetProgress</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+          </Members>
+         </Type>
+         <Type Name="RandomMap">
+          <Members>
+           <Member Name="CreateMap():System.Void">
+            <Messages>
+             <Message Id="Rails.Indicator.#ctor(System.String)" TypeName="DoNotPassLiteralsAsLocalizedParameters" Category="Microsoft.Globalization" CheckId="CA1303" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>RandomMap.CreateMap():Void</Item>
+               <Item>1</Item>
+               <Item>Indicator..ctor(String)</Item>
+               <Item>Generating random map</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="Save():System.Void">
+            <Messages>
+             <Message Id="System.UInt32.ToString" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>RandomMap.Save():Void</Item>
+               <Item>System.UInt32.ToString</Item>
+               <Item>System.UInt32.ToString(System.IFormatProvider)</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+          </Members>
+         </Type>
+         <Type Name="RandomState">
+          <Messages>
+           <Message TypeName="OverrideEqualsAndOperatorEqualsOnValueTypes" Category="Microsoft.Performance" CheckId="CA1815" Created="2005-02-06 02:39:58Z">
+            <Issue Name="Equals">
+             <Item>Rails.RandomState</Item>
+            </Issue>
+            <Issue Name="op_Equality">
+             <Item>Rails.RandomState</Item>
+            </Issue>
+           </Message>
+          </Messages>
+         </Type>
+         <Type Name="Rankings">
+          <Members>
+           <Member Name=".ctor(System.Windows.Forms.Form,Rails.Game,Rails.Map)">
+            <Messages>
+             <Message Id="Rails.Progress.#ctor(System.String)" TypeName="DoNotPassLiteralsAsLocalizedParameters" Category="Microsoft.Globalization" CheckId="CA1303" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>Rankings..ctor(Form, Game, Map)</Item>
+               <Item>1</Item>
+               <Item>Progress..ctor(String)</Item>
+               <Item>Computing major city quotas</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="InitializeComponent():System.Void">
+            <Messages>
+             <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="DoNotPassLiteralsAsLocalizedParameters" Category="Microsoft.Globalization" CheckId="CA1303" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>Rankings.InitializeComponent():Void</Item>
+               <Item>1</Item>
+               <Item>Control.set_Text(String):Void</Item>
+               <Item>Player Rankings</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="Rankings_Paint(System.Object,System.Windows.Forms.PaintEventArgs):System.Void">
+            <Messages>
+             <Message Id="used" TypeName="RemoveUnusedLocals" Category="Microsoft.Performance" CheckId="CA1804" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>Rankings.Rankings_Paint(Object, PaintEventArgs):Void</Item>
+               <Item>used</Item>
+               <Item>System.Boolean[]</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+          </Members>
+         </Type>
+         <Type Name="ReversibleRandom">
+          <Members>
+           <Member Name=".ctor(System.IO.BinaryReader)">
+            <Messages>
+             <Message Id="version" TypeName="RemoveUnusedLocals" Category="Microsoft.Performance" CheckId="CA1804" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>ReversibleRandom..ctor(BinaryReader)</Item>
+               <Item>version</Item>
+               <Item>System.Int32</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="GetState():Rails.RandomState">
+            <Messages>
+             <Message TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024" Created="2005-02-06 02:39:58Z">
+              <Issue Certainty="50">
+               <Item>GetState</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+          </Members>
+         </Type>
+         <Type Name="River">
+          <Members>
+           <Member Name="ID">
+            <Messages>
+             <Message TypeName="ShortAcronymsShouldBeUppercase" Category="Microsoft.Naming" CheckId="CA1706" Created="2005-02-06 02:39:58Z">
+              <Issue Name="MemberId">
+               <Item>River.ID</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+          </Members>
+         </Type>
+         <Type Name="Rivers">
+          <Messages>
+           <Message TypeName="StaticHolderTypesShouldNotHaveConstructors" Category="Microsoft.Design" CheckId="CA1053" Created="2005-02-06 02:39:58Z">
+            <Issue>
+             <Item>Rivers</Item>
+            </Issue>
+           </Message>
+          </Messages>
+          <Members>
+           <Member Name=".cctor()">
+            <Messages>
+             <Message TypeName="InitializeReferenceTypeStaticFieldsInline" Category="Microsoft.Performance" CheckId="CA1810" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>Rails.Rivers</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+          </Members>
+         </Type>
+         <Type Name="SerialNumber">
+          <Members>
+           <Member Name="InitializeComponent():System.Void">
+            <Messages>
+             <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="DoNotPassLiteralsAsLocalizedParameters" Category="Microsoft.Globalization" CheckId="CA1303" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>SerialNumber.InitializeComponent():Void</Item>
+               <Item>1</Item>
+               <Item>Control.set_Text(String):Void</Item>
+               <Item />
+              </Issue>
+              <Issue>
+               <Item>SerialNumber.InitializeComponent():Void</Item>
+               <Item>1</Item>
+               <Item>Control.set_Text(String):Void</Item>
+               <Item>Cancel</Item>
+              </Issue>
+              <Issue>
+               <Item>SerialNumber.InitializeComponent():Void</Item>
+               <Item>1</Item>
+               <Item>Control.set_Text(String):Void</Item>
+               <Item>Map Serial Number</Item>
+              </Issue>
+              <Issue>
+               <Item>SerialNumber.InitializeComponent():Void</Item>
+               <Item>1</Item>
+               <Item>Control.set_Text(String):Void</Item>
+               <Item>OK</Item>
+              </Issue>
+              <Issue>
+               <Item>SerialNumber.InitializeComponent():Void</Item>
+               <Item>1</Item>
+               <Item>Control.set_Text(String):Void</Item>
+               <Item>Specify the serial number of the map you wish to use:</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="Seed">
+            <Accessors>
+             <Accessor Name="get_Seed():System.Int32">
+              <Messages>
+               <Message Id="System.UInt32.Parse(System.String)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Created="2005-02-06 02:39:58Z">
+                <Issue>
+                 <Item>SerialNumber.get_Seed():Int32</Item>
+                 <Item>System.UInt32.Parse(System.String)</Item>
+                 <Item>System.UInt32.Parse(System.String,System.IFormatProvider)</Item>
+                </Issue>
+               </Message>
+              </Messages>
+             </Accessor>
+            </Accessors>
+           </Member>
+           <Member Name="serialNo_TextChanged(System.Object,System.EventArgs):System.Void">
+            <Messages>
+             <Message Id="u" TypeName="RemoveUnusedLocals" Category="Microsoft.Performance" CheckId="CA1804" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>SerialNumber.serialNo_TextChanged(Object, EventArgs):Void</Item>
+               <Item>u</Item>
+               <Item>System.UInt32</Item>
+              </Issue>
+             </Message>
+             <Message Id="System.UInt32.Parse(System.String)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>SerialNumber.serialNo_TextChanged(Object, EventArgs):Void</Item>
+               <Item>System.UInt32.Parse(System.String)</Item>
+               <Item>System.UInt32.Parse(System.String,System.IFormatProvider)</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+          </Members>
+         </Type>
+         <Type Name="Step">
+          <Messages>
+           <Message TypeName="IdentifiersShouldNotMatchKeywords" Category="Microsoft.Naming" CheckId="CA1716" Created="2005-02-06 02:39:58Z">
+            <Issue Name="Type">
+             <Item>Step</Item>
+             <Item>Step</Item>
+            </Issue>
+           </Message>
+          </Messages>
+          <Members>
+           <Member Name=".ctor(System.Int32)">
+            <Messages>
+             <Message TypeName="DoNotInitializeUnnecessarily" Category="Microsoft.Performance" CheckId="CA1805" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>Step..ctor(Int32)</Item>
+               <Item>PickUp</Item>
+               <Item>boolean</Item>
+               <Item>false</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name=".ctor(System.IO.BinaryReader)">
+            <Messages>
+             <Message Id="version" TypeName="RemoveUnusedLocals" Category="Microsoft.Performance" CheckId="CA1804" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>Step..ctor(BinaryReader)</Item>
+               <Item>version</Item>
+               <Item>System.Int32</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="PickUp">
+            <Messages>
+             <Message Id="PickUp" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Created="2005-02-06 02:39:58Z">
+              <Issue Name="ShouldBeDiscreteTerm">
+               <Item>PickUp</Item>
+               <Item>field</Item>
+               <Item>PickUp</Item>
+               <Item>Pickup</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+          </Members>
+         </Type>
+         <Type Name="TerrainType">
+          <Messages>
+           <Message TypeName="FlagsEnumsShouldHavePluralNames" Category="Microsoft.Naming" CheckId="CA1714" Created="2005-02-06 02:39:58Z">
+            <Issue>
+             <Item>TerrainType</Item>
+            </Issue>
+           </Message>
+          </Messages>
+         </Type>
+         <Type Name="TopCommodities">
+          <Members>
+           <Member Name=".ctor(System.Windows.Forms.Form,Rails.Game,Rails.Map)">
+            <Messages>
+             <Message Id="Rails.Progress.#ctor(System.String)" TypeName="DoNotPassLiteralsAsLocalizedParameters" Category="Microsoft.Globalization" CheckId="CA1303" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>TopCommodities..ctor(Form, Game, Map)</Item>
+               <Item>1</Item>
+               <Item>Progress..ctor(String)</Item>
+               <Item>Computing average payoff amounts</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="InitializeComponent():System.Void">
+            <Messages>
+             <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="DoNotPassLiteralsAsLocalizedParameters" Category="Microsoft.Globalization" CheckId="CA1303" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>TopCommodities.InitializeComponent():Void</Item>
+               <Item>1</Item>
+               <Item>Control.set_Text(String):Void</Item>
+               <Item>Average Payoffs</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+          </Members>
+         </Type>
+         <Type Name="UpgradeTrain">
+          <Members>
+           <Member Name="InitializeComponent():System.Void">
+            <Messages>
+             <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="DoNotPassLiteralsAsLocalizedParameters" Category="Microsoft.Globalization" CheckId="CA1303" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>UpgradeTrain.InitializeComponent():Void</Item>
+               <Item>1</Item>
+               <Item>Control.set_Text(String):Void</Item>
+               <Item>Add car for €20</Item>
+              </Issue>
+              <Issue>
+               <Item>UpgradeTrain.InitializeComponent():Void</Item>
+               <Item>1</Item>
+               <Item>Control.set_Text(String):Void</Item>
+               <Item>Cancel</Item>
+              </Issue>
+              <Issue>
+               <Item>UpgradeTrain.InitializeComponent():Void</Item>
+               <Item>1</Item>
+               <Item>Control.set_Text(String):Void</Item>
+               <Item>Diesel: 1h 36m</Item>
+              </Issue>
+              <Issue>
+               <Item>UpgradeTrain.InitializeComponent():Void</Item>
+               <Item>1</Item>
+               <Item>Control.set_Text(String):Void</Item>
+               <Item>Electric: 2h 00m</Item>
+              </Issue>
+              <Issue>
+               <Item>UpgradeTrain.InitializeComponent():Void</Item>
+               <Item>1</Item>
+               <Item>Control.set_Text(String):Void</Item>
+               <Item>Four cars</Item>
+              </Issue>
+              <Issue>
+               <Item>UpgradeTrain.InitializeComponent():Void</Item>
+               <Item>1</Item>
+               <Item>Control.set_Text(String):Void</Item>
+               <Item>Maglev: 1h 20m</Item>
+              </Issue>
+              <Issue>
+               <Item>UpgradeTrain.InitializeComponent():Void</Item>
+               <Item>1</Item>
+               <Item>Control.set_Text(String):Void</Item>
+               <Item>Rails - Upgrade Train</Item>
+              </Issue>
+              <Issue>
+               <Item>UpgradeTrain.InitializeComponent():Void</Item>
+               <Item>1</Item>
+               <Item>Control.set_Text(String):Void</Item>
+               <Item>Steam: 2h 40m</Item>
+              </Issue>
+              <Issue>
+               <Item>UpgradeTrain.InitializeComponent():Void</Item>
+               <Item>1</Item>
+               <Item>Control.set_Text(String):Void</Item>
+               <Item>Three cars</Item>
+              </Issue>
+              <Issue>
+               <Item>UpgradeTrain.InitializeComponent():Void</Item>
+               <Item>1</Item>
+               <Item>Control.set_Text(String):Void</Item>
+               <Item>Two cars</Item>
+              </Issue>
+              <Issue>
+               <Item>UpgradeTrain.InitializeComponent():Void</Item>
+               <Item>1</Item>
+               <Item>Control.set_Text(String):Void</Item>
+               <Item>ü</Item>
+              </Issue>
+              <Issue>
+               <Item>UpgradeTrain.InitializeComponent():Void</Item>
+               <Item>1</Item>
+               <Item>Control.set_Text(String):Void</Item>
+               <Item>ü</Item>
+              </Issue>
+              <Issue>
+               <Item>UpgradeTrain.InitializeComponent():Void</Item>
+               <Item>1</Item>
+               <Item>Control.set_Text(String):Void</Item>
+               <Item>Upgrade Engine</Item>
+              </Issue>
+              <Issue>
+               <Item>UpgradeTrain.InitializeComponent():Void</Item>
+               <Item>1</Item>
+               <Item>Control.set_Text(String):Void</Item>
+               <Item>Upgrade for €20</Item>
+              </Issue>
+              <Issue>
+               <Item>UpgradeTrain.InitializeComponent():Void</Item>
+               <Item>1</Item>
+               <Item>Control.set_Text(String):Void</Item>
+               <Item>Upgrade Freight Cars</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+          </Members>
+         </Type>
+         <Type Name="WaterMasks">
+          <Members>
+           <Member Name="InletMask">
+            <Messages>
+             <Message TypeName="DoNotDeclareReadOnlyMutableReferenceTypes" Category="Microsoft.Security" CheckId="CA2104" Status="Excluded" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>WaterMasks.InletMask</Item>
+               <Item>Rails.StaticIntArray</Item>
+              </Issue>
+              <Notes>
+               <User Name="bret">
+                <Note Id="3" />
+               </User>
+              </Notes>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="RiverMask">
+            <Messages>
+             <Message TypeName="DoNotDeclareReadOnlyMutableReferenceTypes" Category="Microsoft.Security" CheckId="CA2104" Status="Excluded" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>WaterMasks.RiverMask</Item>
+               <Item>Rails.StaticIntArray</Item>
+              </Issue>
+              <Notes>
+               <User Name="bret">
+                <Note Id="5" />
+               </User>
+              </Notes>
+             </Message>
+            </Messages>
+           </Member>
+          </Members>
+         </Type>
+         <Type Name="WinLoss">
+          <Members>
+           <Member Name=".ctor()">
+            <Messages>
+             <Message TypeName="DoNotInitializeUnnecessarily" Category="Microsoft.Performance" CheckId="CA1805" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>WinLoss..ctor()</Item>
+               <Item>filtersChanged</Item>
+               <Item>boolean</Item>
+               <Item>false</Item>
+              </Issue>
+              <Issue>
+               <Item>WinLoss..ctor()</Item>
+               <Item>gr</Item>
+               <Item>reference type</Item>
+               <Item>null</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="ApplyFilters():System.Void">
+            <Messages>
+             <Message Id="System.DateTime.ToString(System.String)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>WinLoss.ApplyFilters():Void</Item>
+               <Item>System.DateTime.ToString(System.String)</Item>
+               <Item>System.DateTime.ToString(System.String,System.IFormatProvider)</Item>
+              </Issue>
+             </Message>
+             <Message Id="System.Int32.ToString" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>WinLoss.ApplyFilters():Void</Item>
+               <Item>System.Int32.ToString</Item>
+               <Item>System.Int32.ToString(System.IFormatProvider)</Item>
+              </Issue>
+              <Issue>
+               <Item>WinLoss.ApplyFilters():Void</Item>
+               <Item>System.Int32.ToString</Item>
+               <Item>System.Int32.ToString(System.IFormatProvider)</Item>
+              </Issue>
+              <Issue>
+               <Item>WinLoss.ApplyFilters():Void</Item>
+               <Item>System.Int32.ToString</Item>
+               <Item>System.Int32.ToString(System.IFormatProvider)</Item>
+              </Issue>
+              <Issue>
+               <Item>WinLoss.ApplyFilters():Void</Item>
+               <Item>System.Int32.ToString</Item>
+               <Item>System.Int32.ToString(System.IFormatProvider)</Item>
+              </Issue>
+              <Issue>
+               <Item>WinLoss.ApplyFilters():Void</Item>
+               <Item>System.Int32.ToString</Item>
+               <Item>System.Int32.ToString(System.IFormatProvider)</Item>
+              </Issue>
+              <Issue>
+               <Item>WinLoss.ApplyFilters():Void</Item>
+               <Item>System.Int32.ToString</Item>
+               <Item>System.Int32.ToString(System.IFormatProvider)</Item>
+              </Issue>
+             </Message>
+             <Message TypeName="TestForEmptyStringsUsingStringLength" Category="Microsoft.Performance" CheckId="CA1820" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>op_Equality</Item>
+               <Item>String.Empty</Item>
+               <Item>WinLoss.ApplyFilters():Void</Item>
+              </Issue>
+              <Issue>
+               <Item>op_Equality</Item>
+               <Item>String.Empty</Item>
+               <Item>WinLoss.ApplyFilters():Void</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+           <Member Name="InitializeComponent():System.Void">
+            <Messages>
+             <Message Id="System.Windows.Forms.ColumnHeader.set_Text(System.String)" TypeName="DoNotPassLiteralsAsLocalizedParameters" Category="Microsoft.Globalization" CheckId="CA1303" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>WinLoss.InitializeComponent():Void</Item>
+               <Item>1</Item>
+               <Item>ColumnHeader.set_Text(String):Void</Item>
+               <Item>Date</Item>
+              </Issue>
+              <Issue>
+               <Item>WinLoss.InitializeComponent():Void</Item>
+               <Item>1</Item>
+               <Item>ColumnHeader.set_Text(String):Void</Item>
+               <Item>Losers</Item>
+              </Issue>
+              <Issue>
+               <Item>WinLoss.InitializeComponent():Void</Item>
+               <Item>1</Item>
+               <Item>ColumnHeader.set_Text(String):Void</Item>
+               <Item>Losses</Item>
+              </Issue>
+              <Issue>
+               <Item>WinLoss.InitializeComponent():Void</Item>
+               <Item>1</Item>
+               <Item>ColumnHeader.set_Text(String):Void</Item>
+               <Item>Map number</Item>
+              </Issue>
+              <Issue>
+               <Item>WinLoss.InitializeComponent():Void</Item>
+               <Item>1</Item>
+               <Item>ColumnHeader.set_Text(String):Void</Item>
+               <Item>Options</Item>
+              </Issue>
+              <Issue>
+               <Item>WinLoss.InitializeComponent():Void</Item>
+               <Item>1</Item>
+               <Item>ColumnHeader.set_Text(String):Void</Item>
+               <Item>Player</Item>
+              </Issue>
+              <Issue>
+               <Item>WinLoss.InitializeComponent():Void</Item>
+               <Item>1</Item>
+               <Item>ColumnHeader.set_Text(String):Void</Item>
+               <Item>Ties</Item>
+              </Issue>
+              <Issue>
+               <Item>WinLoss.InitializeComponent():Void</Item>
+               <Item>1</Item>
+               <Item>ColumnHeader.set_Text(String):Void</Item>
+               <Item>Turns</Item>
+              </Issue>
+              <Issue>
+               <Item>WinLoss.InitializeComponent():Void</Item>
+               <Item>1</Item>
+               <Item>ColumnHeader.set_Text(String):Void</Item>
+               <Item>Turns</Item>
+              </Issue>
+              <Issue>
+               <Item>WinLoss.InitializeComponent():Void</Item>
+               <Item>1</Item>
+               <Item>ColumnHeader.set_Text(String):Void</Item>
+               <Item>Win%</Item>
+              </Issue>
+              <Issue>
+               <Item>WinLoss.InitializeComponent():Void</Item>
+               <Item>1</Item>
+               <Item>ColumnHeader.set_Text(String):Void</Item>
+               <Item>Winners</Item>
+              </Issue>
+              <Issue>
+               <Item>WinLoss.InitializeComponent():Void</Item>
+               <Item>1</Item>
+               <Item>ColumnHeader.set_Text(String):Void</Item>
+               <Item>Wins</Item>
+              </Issue>
+             </Message>
+             <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="DoNotPassLiteralsAsLocalizedParameters" Category="Microsoft.Globalization" CheckId="CA1303" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>WinLoss.InitializeComponent():Void</Item>
+               <Item>1</Item>
+               <Item>Control.set_Text(String):Void</Item>
+               <Item>Exclude these players</Item>
+              </Issue>
+              <Issue>
+               <Item>WinLoss.InitializeComponent():Void</Item>
+               <Item>1</Item>
+               <Item>Control.set_Text(String):Void</Item>
+               <Item>Exclude these variations</Item>
+              </Issue>
+              <Issue>
+               <Item>WinLoss.InitializeComponent():Void</Item>
+               <Item>1</Item>
+               <Item>Control.set_Text(String):Void</Item>
+               <Item>Filter</Item>
+              </Issue>
+              <Issue>
+               <Item>WinLoss.InitializeComponent():Void</Item>
+               <Item>1</Item>
+               <Item>Control.set_Text(String):Void</Item>
+               <Item>Game history</Item>
+              </Issue>
+              <Issue>
+               <Item>WinLoss.InitializeComponent():Void</Item>
+               <Item>1</Item>
+               <Item>Control.set_Text(String):Void</Item>
+               <Item>Number of players must be</Item>
+              </Issue>
+              <Issue>
+               <Item>WinLoss.InitializeComponent():Void</Item>
+               <Item>1</Item>
+               <Item>Control.set_Text(String):Void</Item>
+               <Item>OK</Item>
+              </Issue>
+              <Issue>
+               <Item>WinLoss.InitializeComponent():Void</Item>
+               <Item>1</Item>
+               <Item>Control.set_Text(String):Void</Item>
+               <Item>Player records</Item>
+              </Issue>
+              <Issue>
+               <Item>WinLoss.InitializeComponent():Void</Item>
+               <Item>1</Item>
+               <Item>Control.set_Text(String):Void</Item>
+               <Item>Require these players</Item>
+              </Issue>
+              <Issue>
+               <Item>WinLoss.InitializeComponent():Void</Item>
+               <Item>1</Item>
+               <Item>Control.set_Text(String):Void</Item>
+               <Item>Reset</Item>
+              </Issue>
+              <Issue>
+               <Item>WinLoss.InitializeComponent():Void</Item>
+               <Item>1</Item>
+               <Item>Control.set_Text(String):Void</Item>
+               <Item>Win/Loss Records</Item>
+              </Issue>
+             </Message>
+             <Message Id="System.Windows.Forms.ListViewItem+ListViewSubItem.#ctor(System.Windows.Forms.ListViewItem,System.String)" TypeName="DoNotPassLiteralsAsLocalizedParameters" Category="Microsoft.Globalization" CheckId="CA1303" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>WinLoss.InitializeComponent():Void</Item>
+               <Item>2</Item>
+               <Item>ListViewSubItem..ctor(ListViewItem, String)</Item>
+               <Item>2 bots</Item>
+              </Issue>
+              <Issue>
+               <Item>WinLoss.InitializeComponent():Void</Item>
+               <Item>2</Item>
+               <Item>ListViewSubItem..ctor(ListViewItem, String)</Item>
+               <Item>2004-07-23</Item>
+              </Issue>
+              <Issue>
+               <Item>WinLoss.InitializeComponent():Void</Item>
+               <Item>2</Item>
+               <Item>ListViewSubItem..ctor(ListViewItem, String)</Item>
+               <Item>75</Item>
+              </Issue>
+              <Issue>
+               <Item>WinLoss.InitializeComponent():Void</Item>
+               <Item>2</Item>
+               <Item>ListViewSubItem..ctor(ListViewItem, String)</Item>
+               <Item>987439843</Item>
+              </Issue>
+              <Issue>
+               <Item>WinLoss.InitializeComponent():Void</Item>
+               <Item>2</Item>
+               <Item>ListViewSubItem..ctor(ListViewItem, String)</Item>
+               <Item>None</Item>
+              </Issue>
+             </Message>
+             <Message Id="System.Windows.Forms.ListViewItem+ListViewSubItem.#ctor(System.Windows.Forms.ListViewItem,System.String,System.Drawing.Color,System.Drawing.Color,System.Drawing.Font)" TypeName="DoNotPassLiteralsAsLocalizedParameters" Category="Microsoft.Globalization" CheckId="CA1303" Created="2005-02-06 02:39:58Z">
+              <Issue>
+               <Item>WinLoss.InitializeComponent():Void</Item>
+               <Item>2</Item>
+               <Item>ListViewSubItem..ctor(ListViewItem, String, Color, Color, Font)</Item>
+               <Item>Bret</Item>
+              </Issue>
+             </Message>
+            </Messages>
+           </Member>
+          </Members>
+         </Type>
+        </Types>
+       </Namespace>
+      </Namespaces>
+     </Module>
+    </Modules>
+   </Target>
+  </Targets>
+  <Notes>
+   <User Name="bret">
+    <Note Id="0" Modified="2005-02-06 06:32:05Z">Comparing against double.MaxValue, which is safe.</Note>
+    <Note Id="1" Modified="2005-02-06 06:46:30Z">Immutable.</Note>
+    <Note Id="3" Modified="2005-02-06 02:41:26Z">Immutable.</Note>
+    <Note Id="5" Modified="2005-02-06 02:51:03Z">Immutable.</Note>
+    <Note Id="6" Modified="2005-02-06 02:51:40Z">Immutable.</Note>
+    <Note Id="8" Modified="2005-02-06 03:07:52Z">It's two words "is land", not "island".</Note>
+   </User>
+  </Notes>
+  <Rules>
+   <Rule TypeName="AvoidTestingForFloatingPointEquality" Category="Microsoft.Portability" CheckId="CA1902">
+    <Name>Avoid testing for floating point equality</Name>
+    <Description>Avoid testing for floating-point equality.</Description>
+    <Resolution Name="Default">Replace the test for floating-point equality in {0} with a test that can tolerate differences that may occur due to a lack of precision.</Resolution>
+    <Owner />
+    <Url>http://www.gotdotnet.com/team/fxcop/docs/rules.aspx?version=1.312&amp;&amp;url=/Portability/AvoidTestingForFloatingPointEquality.html</Url>
+    <Email>askfxcop@microsoft.com</Email>
+    <MessageLevel Certainty="50">Warning</MessageLevel>
+    <File Name="PortabilityRules.dll" Version="1.312.0.0" />
+   </Rule>
+   <Rule TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702">
+    <Name>Compound words should be cased correctly</Name>
+    <Description>Avoid creating compound words from terms which exist in the dictionary as discrete terms. Do not create a compound word such as 'StopWatch' or 'PopUp'. These terms are recognized in the dictionary and should be cased as 'Stopwatch' and 'Popup'.</Description>
+    <Resolution Name="ShouldBeDiscreteTerm">The compound word '{0}' in {1} '{2}' exists as a discrete term. If your usage is intended to be single word, case it as '{3}'.</Resolution>
+    <Owner />
+    <Url>http://www.gotdotnet.com/team/fxcop/docs/rules.aspx?version=1.312&amp;&amp;url=/Naming/CompoundWordsShouldBeCasedCorrectly.html</Url>
+    <Email>askfxcop@microsoft.com</Email>
+    <MessageLevel Certainty="80">Error</MessageLevel>
+    <File Name="NamingRules.dll" Version="1.312.0.0" />
+   </Rule>
+   <Rule TypeName="DoNotDeclareReadOnlyMutableReferenceTypes" Category="Microsoft.Security" CheckId="CA2104">
+    <Name>Do not declare read only mutable reference types</Name>
+    <Description>A read-only declaration for a mutable reference type does not prevent the field's instance data from being modified. For example, a read-only StringBuilder field declaration does not make sense, since the data encapsulated by the StringBuilder can be modified using the read-only reference.</Description>
+    <Resolution Name="Default">Remove the readonly declaration from '{0}' or change the field to one that is an immutable reference type. If the reference type '{1}' is, in fact, immutable, exclude this message.</Resolution>
+    <Owner />
+    <Url>http://www.gotdotnet.com/team/fxcop/docs/rules.aspx?version=1.312&amp;&amp;url=/Security/DoNotDeclareReadOnlyMutableReferenceTypes.html</Url>
+    <Email>askfxcop@microsoft.com</Email>
+    <MessageLevel Certainty="25">Error</MessageLevel>
+    <File Name="SecurityRules.dll" Version="1.312.0.0" />
+   </Rule>
+   <Rule TypeName="DoNotIgnoreMethodResults" Category="Microsoft.Performance" CheckId="CA1806">
+    <Name>Do not ignore method results</Name>
+    <Description>The result of methods that create objects should be assigned to a variable and subsequently used. If the result of a method that creates a new object, such as String.ToLower(), is not assigned to a variable, the call is wasted.</Description>
+    <Resolution Name="ObjectCreation">{0} creates an instance of {1} which is either not assigned to a variable or is never used. Remove the object creation if it is unnecessary or use it within the method.</Resolution>
+    <Owner />
+    <Url>http://www.gotdotnet.com/team/fxcop/docs/rules.aspx?version=1.312&amp;&amp;url=/Performance/DoNotIgnoreMethodResults.html</Url>
+    <Email>askfxcop@microsoft.com</Email>
+    <MessageLevel Certainty="95">Warning</MessageLevel>
+    <File Name="PerformanceRules.dll" Version="1.312.0.0" />
+   </Rule>
+   <Rule TypeName="DoNotInitializeUnnecessarily" Category="Microsoft.Performance" CheckId="CA1805">
+    <Name>Do not initialize unnecessarily</Name>
+    <Description>Do not make initializations that have already been done by the runtime.</Description>
+    <Resolution Name="Default">{0} initializes field '{1}', a {2}, to {3}. Remove this initialization, as it will be done automatically by the runtime.</Resolution>
+    <Owner />
+    <Url>http://www.gotdotnet.com/team/fxcop/docs/rules.aspx?version=1.312&amp;&amp;url=/Performance/DoNotInitializeUnnecessarily.html</Url>
+    <Email>askfxcop@microsoft.com</Email>
+    <MessageLevel Certainty="90">Warning</MessageLevel>
+    <File Name="PerformanceRules.dll" Version="1.312.0.0" />
+   </Rule>
+   <Rule TypeName="DoNotPassLiteralsAsLocalizedParameters" Category="Microsoft.Globalization" CheckId="CA1303">
+    <Name>Do not pass literals as localized parameters</Name>
+    <Description>String literals that are embedded in source code are difficult to localize. Avoid passing string literals as arguments in circumstances where a localized string is generally expected. Most localized applications, for example, should localize string arguments that are passed to exception constructors. When creating an Exception instance, therefore, a string argument retrieved from a string table is more appropriate than a string literal.</Description>
+    <Resolution Name="Default">{0} passes a literal as parameter {1} of a call to {2}. Retrieve the following string argument from a resource table instead: '{3}'</Resolution>
+    <Owner />
+    <Url>http://www.gotdotnet.com/team/fxcop/docs/rules.aspx?version=1.312&amp;&amp;url=/Globalization/DoNotPassLiteralsAsLocalizedParameters.html</Url>
+    <Email>askfxcop@microsoft.com</Email>
+    <MessageLevel Certainty="95">Error</MessageLevel>
+    <File Name="GlobalizationRules.dll" Version="1.312.0.0" />
+   </Rule>
+   <Rule TypeName="FlagsEnumsShouldHavePluralNames" Category="Microsoft.Naming" CheckId="CA1714">
+    <Name>Flags enums should have plural names</Name>
+    <Description>An enumeration marked with FlagsAttribute should have a plural name.</Description>
+    <Resolution Name="Default">If enumeration name '{0}' is singular, change it to a plural form.</Resolution>
+    <Owner />
+    <Url>http://www.gotdotnet.com/team/fxcop/docs/rules.aspx?version=1.312&amp;&amp;url=/Naming/FlagsEnumsShouldHavePluralNames.html</Url>
+    <Email>askfxcop@microsoft.com</Email>
+    <MessageLevel Certainty="75">Error</MessageLevel>
+    <File Name="NamingRules.dll" Version="1.312.0.0" />
+   </Rule>
+   <Rule TypeName="IdentifiersShouldNotMatchKeywords" Category="Microsoft.Naming" CheckId="CA1716">
+    <Name>Identifiers should not match keywords</Name>
+    <Description>Identifiers which conflict in whole or in part with reserved keywords should be avoided. See the .NET Design Guidelines, section 2.3 for more information regarding defining namespaces.</Description>
+    <Resolution Name="Type">Change type name '{0}' so that it does not conflict with reserved keyword:'{1}'.</Resolution>
+    <Owner />
+    <Url>http://www.gotdotnet.com/team/fxcop/docs/rules.aspx?version=1.312&amp;&amp;url=/Naming/IdentifiersShouldNotMatchKeywords.html</Url>
+    <Email>askfxcop@microsoft.com</Email>
+    <MessageLevel Certainty="95">Error</MessageLevel>
+    <File Name="NamingRules.dll" Version="1.312.0.0" />
+   </Rule>
+   <Rule TypeName="InitializeReferenceTypeStaticFieldsInline" Category="Microsoft.Performance" CheckId="CA1810">
+    <Name>Initialize reference type static fields inline</Name>
+    <Description>Static fields should be initialized when declared. Initializing static data in explicit static constructors results in less performant code.</Description>
+    <Resolution Name="Default">Initialize all static fields in {0} when those fields are declared and remove the explicit static constructor.</Resolution>
+    <Owner />
+    <Url>http://www.gotdotnet.com/team/fxcop/docs/rules.aspx?version=1.312&amp;&amp;url=/Performance/InitializeReferenceTypeStaticFieldsInline.html</Url>
+    <Email>askfxcop@microsoft.com</Email>
+    <MessageLevel Certainty="90">CriticalWarning</MessageLevel>
+    <File Name="PerformanceRules.dll" Version="1.312.0.0" />
+   </Rule>
+   <Rule TypeName="LiteralsShouldBeSpelledCorrectly" Category="Microsoft.Usage" CheckId="CA2204">
+    <Name>Literals should be spelled correctly</Name>
+    <Description>Literals should consist of correctly spelled words.</Description>
+    <Resolution Name="Default">Correct the spelling of the unrecognized token '{0}' in the literal '{1}'.</Resolution>
+    <Owner />
+    <Url>http://www.gotdotnet.com/team/fxcop/docs/rules.aspx?version=1.312&amp;&amp;url=/Usage/LiteralsShouldBeSpelledCorrectly.html</Url>
+    <Email>askfxcop@microsoft.com</Email>
+    <MessageLevel Certainty="85">Error</MessageLevel>
+    <File Name="UsageRules.dll" Version="1.312.0.0" />
+   </Rule>
+   <Rule TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211">
+    <Name>Non-constant fields should not be visible</Name>
+    <Description>Static fields should be constant unless you carefully manage access to the field using locks. Using static variables without making them thread safe can compromise execution state. This rule applies to managed code libraries. If the analyzed assembly is an application, it is usually safe to exclude violations of this rule.</Description>
+    <Resolution Name="Default">Consider making '{0}' a constant.</Resolution>
+    <Owner />
+    <Url>http://www.gotdotnet.com/team/fxcop/docs/rules.aspx?version=1.312&amp;&amp;url=/Usage/NonConstantFieldsShouldNotBeVisible.html</Url>
+    <Email>askfxcop@microsoft.com</Email>
+    <MessageLevel Certainty="90">Warning</MessageLevel>
+    <File Name="UsageRules.dll" Version="1.312.0.0" />
+   </Rule>
+   <Rule TypeName="OperationsShouldNotOverflow" Category="Microsoft.Usage" CheckId="CA2233">
+    <Name>Operations should not overflow</Name>
+    <Description>Arithmetic operations should not be done without first validating the operands to prevent overflow.</Description>
+    <Resolution Name="Default">Correct the potential overflow in the operation '{0}' in '{1}'.</Resolution>
+    <Owner />
+    <Url>http://www.gotdotnet.com/team/fxcop/docs/rules.aspx?version=1.312&amp;&amp;url=/Usage/OperationsShouldNotOverflow.html</Url>
+    <Email>askfxcop@microsoft.com</Email>
+    <MessageLevel Certainty="75">CriticalWarning</MessageLevel>
+    <File Name="UsageRules.dll" Version="1.312.0.0" />
+   </Rule>
+   <Rule TypeName="OverrideEqualsAndOperatorEqualsOnValueTypes" Category="Microsoft.Performance" CheckId="CA1815">
+    <Name>Override equals and operator equals on value types</Name>
+    <Description>The default System.ValueType implementation might not perform as well as a custom implementation.</Description>
+    <Resolution Name="Equals">'{0}' should override Equals.</Resolution>
+    <Resolution Name="op_Equality">'{0}' should override the equality (==) and inequality (!=) operators.</Resolution>
+    <Owner />
+    <Url>http://www.gotdotnet.com/team/fxcop/docs/rules.aspx?version=1.312&amp;&amp;url=/Performance/OverrideEqualsAndOperatorEqualsOnValueTypes.html</Url>
+    <Email>askfxcop@microsoft.com</Email>
+    <MessageLevel Certainty="75">Warning</MessageLevel>
+    <File Name="PerformanceRules.dll" Version="1.312.0.0" />
+   </Rule>
+   <Rule TypeName="PropertiesShouldNotReturnArrays" Category="Microsoft.Performance" CheckId="CA1819">
+    <Name>Properties should not return arrays</Name>
+    <Description>Properties that return arrays are prone to code inefficiencies. Consider using a collection or making this a method. See the design guidelines for more information.</Description>
+    <Resolution Name="Default">Change {0} to return a collection or make it a method.</Resolution>
+    <Owner />
+    <Url>http://www.gotdotnet.com/team/fxcop/docs/rules.aspx?version=1.312&amp;&amp;url=/Performance/PropertiesShouldNotReturnArrays.html</Url>
+    <Email>askfxcop@microsoft.com</Email>
+    <MessageLevel Certainty="50">Warning</MessageLevel>
+    <File Name="PerformanceRules.dll" Version="1.312.0.0" />
+   </Rule>
+   <Rule TypeName="RemoveUnusedLocals" Category="Microsoft.Performance" CheckId="CA1804">
+    <Name>Remove unused locals</Name>
+    <Description>Remove locals that are not used or are only assigned to in method implementations.</Description>
+    <Resolution Name="Default">{0} declares a local, '{1}', of type {2}, which is never used or is only assigned to. Use this local or remove it.</Resolution>
+    <Owner />
+    <Url>http://www.gotdotnet.com/team/fxcop/docs/rules.aspx?version=1.312&amp;&amp;url=/Performance/RemoveUnusedLocals.html</Url>
+    <Email>askfxcop@microsoft.com</Email>
+    <MessageLevel Certainty="95">Warning</MessageLevel>
+    <File Name="PerformanceRules.dll" Version="1.312.0.0" />
+   </Rule>
+   <Rule TypeName="ShortAcronymsShouldBeUppercase" Category="Microsoft.Naming" CheckId="CA1706">
+    <Name>Short acronyms should be uppercase</Name>
+    <Description>Two letter acronyms should be upper-cased. For example, use System.IO instead of System.Io. Although it may be common practice for some two letter acronyms to not be fully capitalized, violations of this rule should not be excluded for this reason. For example, 'DbConnection', is common but incorrect; use DBConnection. A violation of this rule might be required for compatibility with existing, non-managed symbol schemes. In general, however, these symbols should not be visible outside the assembly that uses them.</Description>
+    <Resolution Name="MemberId">'Id' is an abbreviation, not an acronym, and is not subject to this rule. Correct the capitalization of 'ID' in member name '{0}' by changing it to 'Id'.</Resolution>
+    <Owner />
+    <Url>http://www.gotdotnet.com/team/fxcop/docs/rules.aspx?version=1.312&amp;&amp;url=/Naming/ShortAcronymsShouldBeUppercase.html</Url>
+    <Email>askfxcop@microsoft.com</Email>
+    <MessageLevel Certainty="85">Error</MessageLevel>
+    <File Name="NamingRules.dll" Version="1.312.0.0" />
+   </Rule>
+   <Rule TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305">
+    <Name>Specify IFormatProvider</Name>
+    <Description>If an overload exists that takes an IFormatProvider argument, it should always be called in favor of an overload that does not. Some methods in the common language runtime convert a value to or from a string representation and take a string parameter that contains one or more characters, called format specifiers, which indicate how the value is to be converted. If the meaning of the format specifier varies by culture, a formatting object supplies the actual characters used in the string representation. In scenarios where sorting and comparison behavior should never change between cultures, specify CultureInfo.InvariantCulture.</Description>
+    <Resolution Name="Default">{0} makes a call to {1} that does not explicitly provide an IFormatProvider. This should be replaced with a call to {2}.</Resolution>
+    <Owner />
+    <Url>http://www.gotdotnet.com/team/fxcop/docs/rules.aspx?version=1.312&amp;&amp;url=/Globalization/SpecifyIFormatProvider.html</Url>
+    <Email>askfxcop@microsoft.com</Email>
+    <MessageLevel Certainty="95">Error</MessageLevel>
+    <File Name="GlobalizationRules.dll" Version="1.312.0.0" />
+   </Rule>
+   <Rule TypeName="StaticHolderTypesShouldNotHaveConstructors" Category="Microsoft.Design" CheckId="CA1053">
+    <Name>Static holder types should not have constructors</Name>
+    <Description>Instances of types that define only static members do not need to be created. Many compilers will automatically add a public default constructor if no constructor is specified.  To prevent this, adding an empty private constructor may be required.</Description>
+    <Resolution Name="Default">Remove the public constructors from '{0}'.</Resolution>
+    <Owner />
+    <Url>http://www.gotdotnet.com/team/fxcop/docs/rules.aspx?version=1.312&amp;&amp;url=/Design/StaticHolderTypesShouldNotHaveConstructors.html</Url>
+    <Email>askfxcop@microsoft.com</Email>
+    <MessageLevel Certainty="90">Error</MessageLevel>
+    <File Name="DesignRules.dll" Version="1.312.0.0" />
+   </Rule>
+   <Rule TypeName="TestForEmptyStringsUsingStringLength" Category="Microsoft.Performance" CheckId="CA1820">
+    <Name>Test for empty strings using string length</Name>
+    <Description>To test for empty strings, check if String.Length is equal to zero. Constructs such as "".Equals(someString) and String.Empty.Equals(someString) are less efficient than testing the string length. Replace these with checks for someString.Length == 0.</Description>
+    <Resolution Name="Default">Replace the call to String.{0}({1}) in '{2}' with a check for non-null and Length == 0.</Resolution>
+    <Owner />
+    <Url>http://www.gotdotnet.com/team/fxcop/docs/rules.aspx?version=1.312&amp;&amp;url=/Performance/TestForEmptyStringsUsingStringLength.html</Url>
+    <Email>askfxcop@microsoft.com</Email>
+    <MessageLevel Certainty="95">Warning</MessageLevel>
+    <File Name="PerformanceRules.dll" Version="1.312.0.0" />
+   </Rule>
+   <Rule TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024">
+    <Name>Use properties where appropriate</Name>
+    <Description>Properties should be used instead of Get/Set methods in most situations. Methods are preferable to properties in the following situations: the operation is a conversion, is expensive or has an observable side-effect; the order of execution is important; calling the member twice in succession creates different results; a member is static but returns a mutable value; or the member returns an array.</Description>
+    <Resolution Name="Default">Change '{0}' to a property if appropriate.</Resolution>
+    <Owner />
+    <Url>http://www.gotdotnet.com/team/fxcop/docs/rules.aspx?version=1.312&amp;&amp;url=/Design/UsePropertiesWhereAppropriate.html</Url>
+    <Email>askfxcop@microsoft.com</Email>
+    <MessageLevel Certainty="75">Warning</MessageLevel>
+    <File Name="DesignRules.dll" Version="1.312.0.0" />
+   </Rule>
+  </Rules>
+ </FxCopReport>
+</FxCopProject>

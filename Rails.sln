@@ -1,0 +1,44 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rails", "Rails.csproj", "{3C8402F1-F110-4C25-A1FE-0541A448C679}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graphics", "Graphics\Graphics.csproj", "{338198D7-A70F-41E6-854B-465950CC2A4E}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{75817252-7793-449A-83E5-E888856972C5}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupLite", "SetupLite\SetupLite.vdproj", "{7CD8B14E-EF57-48C5-8CA1-56535341B1F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+		ConfigName.2 = Test
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{3C8402F1-F110-4C25-A1FE-0541A448C679}.Debug.ActiveCfg = Debug|.NET
+		{3C8402F1-F110-4C25-A1FE-0541A448C679}.Debug.Build.0 = Debug|.NET
+		{3C8402F1-F110-4C25-A1FE-0541A448C679}.Release.ActiveCfg = Release|.NET
+		{3C8402F1-F110-4C25-A1FE-0541A448C679}.Release.Build.0 = Release|.NET
+		{3C8402F1-F110-4C25-A1FE-0541A448C679}.Test.ActiveCfg = Test|.NET
+		{3C8402F1-F110-4C25-A1FE-0541A448C679}.Test.Build.0 = Test|.NET
+		{338198D7-A70F-41E6-854B-465950CC2A4E}.Debug.ActiveCfg = Debug|.NET
+		{338198D7-A70F-41E6-854B-465950CC2A4E}.Debug.Build.0 = Debug|.NET
+		{338198D7-A70F-41E6-854B-465950CC2A4E}.Release.ActiveCfg = Release|.NET
+		{338198D7-A70F-41E6-854B-465950CC2A4E}.Release.Build.0 = Release|.NET
+		{338198D7-A70F-41E6-854B-465950CC2A4E}.Test.ActiveCfg = Test|.NET
+		{338198D7-A70F-41E6-854B-465950CC2A4E}.Test.Build.0 = Test|.NET
+		{75817252-7793-449A-83E5-E888856972C5}.Debug.ActiveCfg = Debug
+		{75817252-7793-449A-83E5-E888856972C5}.Release.ActiveCfg = Release
+		{75817252-7793-449A-83E5-E888856972C5}.Release.Build.0 = Release
+		{75817252-7793-449A-83E5-E888856972C5}.Test.ActiveCfg = Release
+		{7CD8B14E-EF57-48C5-8CA1-56535341B1F3}.Debug.ActiveCfg = Debug
+		{7CD8B14E-EF57-48C5-8CA1-56535341B1F3}.Release.ActiveCfg = Release
+		{7CD8B14E-EF57-48C5-8CA1-56535341B1F3}.Release.Build.0 = Release
+		{7CD8B14E-EF57-48C5-8CA1-56535341B1F3}.Test.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,871 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Local"
+        ProductVersion = "7.0.9955"
+        SchemaVersion = "1.0"
+        ProjectGuid = "{3C8402F1-F110-4C25-A1FE-0541A448C679}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = "App.ico"
+                AssemblyKeyContainerName = ""
+                AssemblyName = "Rails"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "WinExe"
+                RootNamespace = "Rails"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\Debug\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\Release\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Test"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE;TEST"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\Debug\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Windows.Forms.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.XML.dll"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "About.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "About.resx"
+                    DependentUpon = "About.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "App.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "AuthoredMap.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ChooseTrack.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ChooseTrack.resx"
+                    DependentUpon = "ChooseTrack.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "City.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CityNames.txt"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Coastline.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CompanyStrike.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Contract.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Deck.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Derailment.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Disaster.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Engines.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Flood.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Fog.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Form1.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Form1.resx"
+                    DependentUpon = "Form1.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Gale.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Game.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GameResults.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GameState.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Geometry.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Images.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Indicator.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Indicator.resx"
+                    DependentUpon = "Indicator.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "LocalizedStrings.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "machine.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Map.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "MapGallery.cs"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "MapGallery.resx"
+                    DependentUpon = "MapGallery.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Milepost.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "NewGame.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "NewGame.resx"
+                    DependentUpon = "NewGame.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Newspaper.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Newspaper.resx"
+                    DependentUpon = "Newspaper.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Options.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Player.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Products.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Progress.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Progress.resx"
+                    DependentUpon = "Progress.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "RandomMap.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "RandomMap2.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Rankings.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Rankings.resx"
+                    DependentUpon = "Rankings.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Resource.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ReversibleRandom.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "RiverNames.txt"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Rivers.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SerialNumber.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SerialNumber.resx"
+                    DependentUpon = "SerialNumber.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Snow.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "StateFrame.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Strategy.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Strike.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Strings.resx"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Tax.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "TopCommodities.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "TopCommodities.resx"
+                    DependentUpon = "TopCommodities.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "TrackRecord.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Trigram.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UpgradeTrain.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UpgradeTrain.resx"
+                    DependentUpon = "UpgradeTrain.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "user.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Utility.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "WinLoss.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "WinLoss.resx"
+                    DependentUpon = "WinLoss.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ZField.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Alpine.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\BlackDot.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\BlueDot.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Bridge0-0.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Bridge0-1.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Bridge0-2.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Bridge1-0.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Bridge1-1.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Bridge1-2.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Bridge2-0.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Bridge2-1.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Bridge2-2.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Bridge3-0.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Bridge3-1.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Bridge3-2.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Bridge4-0.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Bridge4-1.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Bridge4-2.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Bridge5-0.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Bridge5-1.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Bridge5-2.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Bridge6-0.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Bridge6-1.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Bridge6-2.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Capital.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\City.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Glow.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Hill.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\PlayerDot0.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\PlayerDot1.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\PlayerDot2.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\PlayerDot3.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\PlayerDot4.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\PlayerDot5.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Port.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Snowflake0.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Snowflake1.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Snowflake2.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Snowflake3.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Snowflake4.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Snowflake5.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Snowflake6.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Snowflake7.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Snowflake8.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Snowflake9.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Town.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Track0-0.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Track0-1.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Track0-2.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Track1-0.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Track1-1.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Track1-2.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Track2-0.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Track2-1.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Track2-2.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Track3-0.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Track3-1.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Track3-2.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Track4-0.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Track4-1.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Track4-2.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Track5-0.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Track5-1.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Track5-2.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Track6-0.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Track6-1.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Track6-2.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Train0.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Train1.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Train2.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Train3.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Train4.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Graphics\bin\Debug\Train5.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Icons\bauxite.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Icons\beer.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Icons\cars.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Icons\cattle.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Icons\cheese.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Icons\chemicals.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Icons\china.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Icons\chocolate.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Icons\coal.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Icons\copper.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Icons\cork.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Icons\drugs.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Icons\fish.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Icons\flowers.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Icons\furniture.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Icons\ham.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Icons\hops.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Icons\imports.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Icons\iron.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Icons\machinery.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Icons\marble.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Icons\oil.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Icons\oranges.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Icons\potatoes.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Icons\sheep.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Icons\steel.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Icons\tobacco.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Icons\wheat.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Icons\wine.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Icons\wood.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Trains\Loco.gif"
+                    BuildAction = "EmbeddedResource"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+
