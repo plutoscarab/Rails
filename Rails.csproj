@@ -1,0 +1,536 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3C8402F1-F110-4C25-A1FE-0541A448C679}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>App.ico</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>Rails</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Rails</RootNamespace>
+    <StartupObject>Rails.Startup</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Test|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE;TEST</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AuthoredMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Channel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Chat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChooseTrack.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="City.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Coastline.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CompanyStrike.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Concede.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contract.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Deck.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Derailment.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Disaster.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Engines.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Flood.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Fog.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Gale.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Game.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameResults.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameState.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GelButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Geometry.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Host.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HostForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HostStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Images.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Indicator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LocalizedStrings.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LocalUsers.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Map.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MapGallery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Milepost.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NetworkState.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NewGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Newspaper.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Options.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Player.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Products.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Progress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RandomMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RandomMap2.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Rankings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReplacePlayer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resource.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ReversibleRandom.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Rivers.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SerialNumber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Snow.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Startup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StateFrame.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Strategy.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Strike.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tax.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TopCommodities.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TrackRecord.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Trigram.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UpgradeTrain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utility.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinLoss.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZField.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Buttons\BlueButton.png" />
+    <EmbeddedResource Include="Buttons\BlueButtonDark.png" />
+    <EmbeddedResource Include="Buttons\BlueButtonDown.png" />
+    <EmbeddedResource Include="Buttons\BlueButtonGlow.png" />
+    <EmbeddedResource Include="Buttons\GreenButton.png" />
+    <EmbeddedResource Include="Buttons\GreenButtonDark.png" />
+    <EmbeddedResource Include="Buttons\GreenButtonDown.png" />
+    <EmbeddedResource Include="Buttons\GreenButtonGlow.png" />
+    <EmbeddedResource Include="Buttons\RedButton.png" />
+    <EmbeddedResource Include="Buttons\RedButtonDark.png" />
+    <EmbeddedResource Include="Buttons\RedButtonDown.png" />
+    <EmbeddedResource Include="Buttons\RedButtonGlow.png" />
+    <EmbeddedResource Include="Buttons\YellowButton.png" />
+    <EmbeddedResource Include="Buttons\YellowButtonDark.png" />
+    <EmbeddedResource Include="Buttons\YellowButtonDown.png" />
+    <EmbeddedResource Include="Buttons\YellowButtonGlow.png" />
+    <EmbeddedResource Include="Chat.resx">
+      <DependentUpon>Chat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChooseTrack.resx">
+      <DependentUpon>ChooseTrack.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CityNames.txt" />
+    <EmbeddedResource Include="Concede.resx">
+      <DependentUpon>Concede.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameForm.resx">
+      <DependentUpon>GameForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GelButton.resx">
+      <DependentUpon>GelButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Graphics\bin\Debug\Alpine.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\BlackDot.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\BlueDot.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Bridge0-0.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Bridge0-1.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Bridge0-2.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Bridge1-0.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Bridge1-1.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Bridge1-2.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Bridge2-0.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Bridge2-1.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Bridge2-2.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Bridge3-0.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Bridge3-1.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Bridge3-2.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Bridge4-0.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Bridge4-1.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Bridge4-2.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Bridge5-0.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Bridge5-1.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Bridge5-2.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Bridge6-0.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Bridge6-1.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Bridge6-2.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Capital.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\City.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Glow.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Hill.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\PlayerDot0.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\PlayerDot1.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\PlayerDot2.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\PlayerDot3.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\PlayerDot4.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\PlayerDot5.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Port.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Snowflake0.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Snowflake1.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Snowflake2.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Snowflake3.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Snowflake4.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Snowflake5.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Snowflake6.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Snowflake7.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Snowflake8.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Snowflake9.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Town.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Track0-0.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Track0-1.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Track0-2.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Track1-0.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Track1-1.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Track1-2.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Track2-0.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Track2-1.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Track2-2.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Track3-0.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Track3-1.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Track3-2.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Track4-0.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Track4-1.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Track4-2.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Track5-0.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Track5-1.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Track5-2.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Track6-0.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Track6-1.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Track6-2.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Train0.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Train1.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Train2.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Train3.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Train4.bmp" />
+    <EmbeddedResource Include="Graphics\bin\Debug\Train5.bmp" />
+    <EmbeddedResource Include="HostForm.resx">
+      <DependentUpon>HostForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HostStatus.resx">
+      <DependentUpon>HostStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Icons\bauxite.bmp" />
+    <EmbeddedResource Include="Icons\beer.bmp" />
+    <EmbeddedResource Include="Icons\cars.bmp" />
+    <EmbeddedResource Include="Icons\cattle.bmp" />
+    <EmbeddedResource Include="Icons\cheese.bmp" />
+    <EmbeddedResource Include="Icons\chemicals.bmp" />
+    <EmbeddedResource Include="Icons\china.bmp" />
+    <EmbeddedResource Include="Icons\chocolate.bmp" />
+    <EmbeddedResource Include="Icons\coal.bmp" />
+    <EmbeddedResource Include="Icons\copper.bmp" />
+    <EmbeddedResource Include="Icons\cork.bmp" />
+    <EmbeddedResource Include="Icons\drugs.bmp" />
+    <EmbeddedResource Include="Icons\fish.bmp" />
+    <EmbeddedResource Include="Icons\flowers.bmp" />
+    <EmbeddedResource Include="Icons\furniture.bmp" />
+    <EmbeddedResource Include="Icons\ham.bmp" />
+    <EmbeddedResource Include="Icons\hops.bmp" />
+    <EmbeddedResource Include="Icons\imports.bmp" />
+    <EmbeddedResource Include="Icons\iron.bmp" />
+    <EmbeddedResource Include="Icons\machinery.bmp" />
+    <EmbeddedResource Include="Icons\marble.bmp" />
+    <EmbeddedResource Include="Icons\oil.bmp" />
+    <EmbeddedResource Include="Icons\oranges.bmp" />
+    <EmbeddedResource Include="Icons\potatoes.bmp" />
+    <EmbeddedResource Include="Icons\sheep.bmp" />
+    <EmbeddedResource Include="Icons\steel.bmp" />
+    <EmbeddedResource Include="Icons\tobacco.bmp" />
+    <EmbeddedResource Include="Icons\wheat.bmp" />
+    <EmbeddedResource Include="Icons\wine.bmp" />
+    <EmbeddedResource Include="Icons\wood.bmp" />
+    <EmbeddedResource Include="Indicator.resx">
+      <DependentUpon>Indicator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LocalUsers.resx">
+      <DependentUpon>LocalUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="machine.ico" />
+    <EmbeddedResource Include="MapGallery.resx">
+      <DependentUpon>MapGallery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewGame.resx">
+      <DependentUpon>NewGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Newspaper.resx">
+      <DependentUpon>Newspaper.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PhantomCursor.png" />
+    <EmbeddedResource Include="Progress.resx">
+      <DependentUpon>Progress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rankings.resx">
+      <DependentUpon>Rankings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReplacePlayer.resx">
+      <DependentUpon>ReplacePlayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RiverNames.txt" />
+    <EmbeddedResource Include="SerialNumber.resx">
+      <DependentUpon>SerialNumber.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Startup.resx">
+      <DependentUpon>Startup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strings.resx" />
+    <EmbeddedResource Include="TopCommodities.resx">
+      <DependentUpon>TopCommodities.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Trains\Loco.gif" />
+    <EmbeddedResource Include="Trains\plaque.png" />
+    <EmbeddedResource Include="UpgradeTrain.resx">
+      <DependentUpon>UpgradeTrain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="user.ico" />
+    <EmbeddedResource Include="WinLoss.resx">
+      <DependentUpon>WinLoss.cs</DependentUpon>
+    </EmbeddedResource>
+    <Content Include="App.ico" />
+    <None Include="Rails.exe.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>
